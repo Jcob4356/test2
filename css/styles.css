@@ -45,7 +45,6 @@ p {
   font-size: 24px;
   font-weight: 900;
 }
-
 .dscrpt{
   color: hsl(224, 23%, 55%);
   width: 80%;
@@ -57,6 +56,45 @@ p {
 
 .hero-img {
   object-fit: cover;
+}
+
+.payment{
+  background-color: hsl(225, 100%, 98%); 
+  width: 80%;
+  margin:auto;
+  height: 10vh;
+  padding: 3% 2% 0.1%;
+  border-radius: 16px;
+}
+
+.fl{
+float: left;
+}
+
+.note-img{
+  margin: 15px;
+  float: left;
+}
+
+.plan{
+line-height: 0.4;
+}
+
+.price{
+color: hsl(224, 23%, 55%);
+
+}
+
+.plan-change{
+  display: inline-block;
+  float: right;
+  margin: 9% 4% 0 0;
+  color: hsl(245, 75%, 52%);
+}
+
+.plan-change:hover {
+color: #948cf5;
+
 }
 
 .buttons {
